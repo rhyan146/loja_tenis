@@ -1,0 +1,44 @@
+.rodape {
+    background: #111;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.rodape-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rodape h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.rodape-icones {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.rodape-icones img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.rodape-icones img:hover {
+    transform: scale(1.12);
+}
+
+.copy {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 10px;
+}
