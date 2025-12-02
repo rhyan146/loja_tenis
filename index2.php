@@ -16,3 +16,5 @@ try{
     echo "ERRO: " .$e->getMessage();
     exit;
 }
+
+?>
